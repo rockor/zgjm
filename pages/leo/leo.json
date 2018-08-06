@@ -1,0 +1,6 @@
+{
+	"navigationBarBackgroundColor": "#34354a",
+  "usingComponents": {
+    "xm-ad": "/components/xmAD/xmAD"
+  }
+}

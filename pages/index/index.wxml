@@ -1,0 +1,35 @@
+<image class="background-image" src="../../images/bg1.png"></image>
+<view class="container">
+    <view class="show-banner">
+      <view class='show-banner-detail'>
+        <navigator target="miniProgram" open-type="navigate" app-id="wx1c7d8eab75c8d553" path="pages/newportal/detail?fuck=wechat&adid=0&_mta_ref_id=zhougong" extra-data="" version="release" hover-class='navigator-hover'><image src='../../images/red-packet.png'  ></image></navigator>
+      </view>
+    </view>
+    <view class="search-body">
+        <input type="text" bindinput="changeSearchKey" placeholder="告诉周公你梦到了什么" confirm-type="search" bindconfirm="searchTap" />
+        <view class="search-body-icon">
+            <image bindtap="searchTap" src="../../images/search-btn.png"></image>
+        </view>
+    </view>
+    <!-- banner 广广告,按需引入入 -->
+    
+    <view class='weui-footer weui-footer_fixed-bottom'>
+      <view class="xm_banner" style="width:100%">
+           <xm-ad class="xm_component"
+          data-id="{{xmad.ad.banner}}"
+            bindclick='appoIntView' 
+            bindclose='xmadClose' 
+            adData="{{xmad.adData}}">
+            </xm-ad> 
+      </view>
+      <view class="weui-footer__text leo-footer">
+              <navigator url="../leo/leo" hover-class="navigator-hover">
+                  更多
+              </navigator>
+      </view>
+    </view>
+
+    <view class="weui-footer weui-footer_fixed-bottom">
+        
+    </view>
+</view>

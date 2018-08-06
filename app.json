@@ -1,0 +1,19 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/xmadH5/xmadH5",
+        "pages/detail/detail",
+        "pages/groupList/groupList",
+        "pages/titleList/titleList",
+        "pages/leo/leo",
+        "pages/newportal/detail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#0E1327",
+        "backgroundColor": "#333449",
+        "navigationBarTitleText": "周公解梦",
+        "navigationBarTextStyle": "white"
+    }
+}
