@@ -1,3 +1,4 @@
+const Page = require('../../utils/ald-stat.js').Page;
 const titleData = require('../../utils/titleData.js');
 const Util = require('../../utils/util.js');
 
