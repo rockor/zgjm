@@ -8,16 +8,6 @@
             </xm-ad> 
 </view>
     <view class="leo-bd">
-
-        <!-- <view class="logo">
-            <image src="../../images/logo-128.png"></image>
-        </view>
-        <view class="title">
-            <text>周公解梦境 v1.0.8</text>
-        </view>
-        <view class="detail">
-            <text>By Leo</text>
-        </view> -->
         <view class='title'>
           <text>小游戏推荐</text>
           <view class='more-game'>更多好玩游戏，敬请期待!</view>
@@ -27,7 +17,7 @@
       <view class="weui-footer weui-footer_fixed-bottom">
         <view class="show-banner">
       <view class='show-banner-detail'>
-              <navigator target="miniProgram" open-type="navigate" app-id="wxed2e883135f52044" path="pages/boxdetail/boxdetail?ald_media_id=2135&ald_link_key=a4056cb897451ecd&ald_position_id=0" extra-data="" version="trial" hover-class='navigator-hover'><image src='../../images/red-packet2.png' style='float:left;' ></image></navigator>
+       <navigator target="miniProgram" open-type="navigate" app-id="wxed2e883135f52044" path="pages/boxdetail/boxdetail?ald_media_id=2135&ald_link_key=a4056cb897451ecd&ald_position_id=0" extra-data="" version="trial" hover-class='navigator-hover'><image style='float:left;' src='../../images/red-packet2.png'  ></image></navigator>
         <navigator target="miniProgram" open-type="navigate" app-id="wxed2e883135f52044" path="pages/boxdetail/boxdetail?source=wechat&adid=0&channelId=wk" extra-data="" version="trial" hover-class='navigator-hover'><image src='../../images/red-packet2.png'  ></image></navigator>
       </view>
     </view>

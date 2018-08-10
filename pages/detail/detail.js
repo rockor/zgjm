@@ -1,7 +1,7 @@
+const Page = require('../../utils/ald-stat.js').Page;
 const datas = require('../../utils/data.js');
 const Util = require('../../utils/util.js');
-var Page =
-  require('../../utils/xmadx_sdk.min.js').xmad(Page).xmPage;
+// var Page = require('../../utils/xmadx_sdk.min.js').xmad(Page).xmPage;
 
 Page({
     data: {

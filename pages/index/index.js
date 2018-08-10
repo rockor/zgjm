@@ -1,3 +1,4 @@
+
 const Util = require('../../utils/util.js');
 // ⻚页面面顶部引入入
 var Page =
@@ -6,18 +7,6 @@ var Page =
 const app = getApp();
 
 Page({
-  data: {
-    // 需在 xmadID 中配置广广告位 ID ,多个 ID 之间用用英文文逗号隔开
-    xmad: {
-      adData: {},
-      ad: {
-        banner: "xmd9833780b01e76a29ab9dfbb13b9df", // 按需引入入
-      }
-    },
-    // 您的其它数据
-    // yourOtherData: {},
-    searchKey: '', // 输入查询的关键字
-  },
 
   onLoad:function(){
     
