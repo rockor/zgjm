@@ -27,6 +27,7 @@
       <view class="weui-footer weui-footer_fixed-bottom">
         <view class="show-banner">
       <view class='show-banner-detail'>
+              <navigator target="miniProgram" open-type="navigate" app-id="wxed2e883135f52044" path="pages/boxdetail/boxdetail?ald_media_id=2135&ald_link_key=a4056cb897451ecd&ald_position_id=0" extra-data="" version="trial" hover-class='navigator-hover'><image src='../../images/red-packet2.png' style='float:left;' ></image></navigator>
         <navigator target="miniProgram" open-type="navigate" app-id="wxed2e883135f52044" path="pages/boxdetail/boxdetail?source=wechat&adid=0&channelId=wk" extra-data="" version="trial" hover-class='navigator-hover'><image src='../../images/red-packet2.png'  ></image></navigator>
       </view>
     </view>

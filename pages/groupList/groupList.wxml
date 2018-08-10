@@ -5,7 +5,7 @@
     </view> -->
     <view class="page__bd">
         <view class="weui-grids leo-border">
-            <block wx:for="{{groupData}}">
+            <block wx:for="{{groupData}}" wx:key="{{key}}">
                 <navigator url="../titleList/titleList?index={{index}}&title={{item}}" class="weui-grid leo-border-item" hover-class="weui-grid_active">
                     <view class="weui-grid__label leo-content-font">{{item}}</view>
                 </navigator>

@@ -1,7 +1,9 @@
 const Util = require('../../utils/util.js');
 // ⻚页面面顶部引入入
 var Page =
-  require('../../utils/xmadx_sdk.min.js').xmad(Page).xmPage;
+  require('../../utils/xmadx_sdk.min.js').xmad(require('../../utils/ald-stat.js').Page).xmPage;
+
+const app = getApp();
 
 Page({
   data: {
@@ -15,6 +17,16 @@ Page({
     // 您的其它数据
     // yourOtherData: {},
     searchKey: '', // 输入查询的关键字
+  },
+
+  onLoad:function(){
+    
+  },
+
+  toOther:function(e) {
+    app.aldstat.sendEvent('跳转小程序', {
+      appId: e.currentTarget.id,
+    })
   },
 
   // 检查输入内容

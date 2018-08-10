@@ -2,7 +2,7 @@
 <view class="container">
     <view class="show-banner">
       <view class='show-banner-detail'>
-        <navigator target="miniProgram" open-type="navigate" app-id="wx1c7d8eab75c8d553" path="pages/newportal/detail?fuck=wechat&adid=0&_mta_ref_id=zhougong" extra-data="" version="release" hover-class='navigator-hover'><image src='../../images/red-packet.png'  ></image></navigator>
+        <navigator target="miniProgram" open-type="navigate" app-id="wx1c7d8eab75c8d553" id="wx1c7d8eab75c8d553" path="pages/newportal/detail?fuck=wechat&adid=0&_mta_ref_id=zhougong" extra-data="" version="release" hover-class='navigator-hover' bindtap='toOther'><image src='../../images/red-packet.png'  ></image></navigator>
       </view>
     </view>
     <view class="search-body">
