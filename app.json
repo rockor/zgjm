@@ -5,8 +5,7 @@
         "pages/detail/detail",
         "pages/groupList/groupList",
         "pages/titleList/titleList",
-        "pages/leo/leo",
-        "pages/newportal/detail"
+        "pages/leo/leo"
     ],
     "window": {
         "backgroundTextStyle": "light",
